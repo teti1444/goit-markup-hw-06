@@ -1,19 +1,24 @@
-#footer {
+.footer {
     background-color: #2E2F42;
 }
 
-#footer .logo {
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #4d5ae5;
 }
 
-#footer .logo span {
+.footer-logo-span {
   color: #F4F4FD;
 }
 
-#footer p{
+.footer-text{
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02;
 }

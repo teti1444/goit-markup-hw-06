@@ -1,21 +1,32 @@
-#team {
+.team {
     background-color: #F4F4FD;
 }
 
-#team h2{
+.team-title {
     color: #2E2F42;
     font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02;
     text-align: center;
 }
 
-#team li {
-    background-color: #FFFFFF;
-}
-
-#team h3{
+.team-subtitle {
     color: #2E2F42;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
