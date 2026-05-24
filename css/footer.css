@@ -30,7 +30,10 @@
 .footer .container {
   display: flex;
   align-items: flex-start;
-  gap: 120px;
+}
+
+.footer-logo-block {
+  margin-right: 120px;
 }
 
 .footer-social-title {
