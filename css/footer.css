@@ -69,13 +69,14 @@
 }
 
 .footer-subscribe {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .footer-subscribe-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 
   color: #ffffff;
 
@@ -88,7 +89,7 @@
 }
 
 .footer-input {
-  width: 264px;
+  weight: 264px;
   height: 40px;
 
   padding-left: 16px;
@@ -99,6 +100,16 @@
   border-radius: 4px;
 
   color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+.footer-input:focus {
+  border-color: #31d0aa;
+  outline: none;
 }
 
 .footer-input::placeholder {
@@ -121,4 +132,14 @@
   color: #ffffff;
 
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #31d0aa;
 }
