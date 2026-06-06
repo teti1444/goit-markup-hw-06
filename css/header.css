@@ -94,3 +94,36 @@
     border-radius: 2px;
     background-color: #404BBF;
  }
+
+ .menu-open-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav,
+.address {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .address {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
