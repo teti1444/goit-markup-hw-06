@@ -20,11 +20,14 @@ h1,h2,h3,h4,h5,h6,p {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
     max-width: 320px;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 
@@ -57,15 +60,18 @@ p {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 768px; 
     }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
-     .section{
+        max-width:1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+
+    .section{
         padding: 120px 0;
      }
     }
-}

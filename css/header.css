@@ -56,7 +56,6 @@
 .header-container {
     display: flex;
     align-items: center;
-    min-height: 72px;
     justify-content: space-between;
 }
 
@@ -155,5 +154,9 @@ gap: 12px;
 
   .header-logo {
     margin-right: 76px;
+  }
+
+   .menu-open-btn {
+    display: none;
   }
 }
