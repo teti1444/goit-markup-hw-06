@@ -80,9 +80,15 @@
   .features-subtitle {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
   }
 
   .features {
     padding: 120px 0;
+  }
+
+  .features-text
+  {
+    font-weight: 400;
   }
   }

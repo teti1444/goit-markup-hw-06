@@ -34,10 +34,6 @@
   gap: 72px;
 }
 
-.footer-logo-block {
-  margin-right: 120px;
-}
-
 .footer-social-title {
   color: #fff;
   margin-bottom: 16px;
@@ -47,6 +43,7 @@
 
 .footer-social-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
   padding: 0;
   margin: 0;
@@ -165,7 +162,6 @@ text-align: center;
     flex-wrap: wrap;
     align-items: baseline;
     gap: 72px 24px;
-    padding-left: 108px;
   }
 
   .footer-logo-block,
@@ -203,10 +199,6 @@ text-align: center;
 
   .footer-logo-block {
     margin-right: 120px;
-  }
-
-  .footer-social {
-    margin-right: 80px;
   }
 
   .footer-subscribe {
