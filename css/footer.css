@@ -200,6 +200,7 @@ text-align: center;
   .footer .container {
     flex-wrap: nowrap;
     gap: 0;
+    max-width: 1158px;
   }
 
   .footer-logo-block {
