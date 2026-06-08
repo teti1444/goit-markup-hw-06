@@ -25,6 +25,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    text-align: left;
 }
 
 .footer .container {
@@ -194,7 +195,6 @@ text-align: center;
   .footer .container {
     flex-wrap: nowrap;
     gap: 0;
-    padding-left: 0;
   }
 
   .footer-logo-block {
